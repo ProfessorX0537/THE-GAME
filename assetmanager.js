@@ -48,6 +48,7 @@ class AssetManager {
                     });
 
                     img.src = path;
+                    //cache stores loaded images in key(path) value(img) pairs
                     this.cache[path] = img;
                     break;
                 case 'wav':
